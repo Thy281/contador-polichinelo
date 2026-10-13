@@ -14,15 +14,19 @@ Projeto em Python que usa MediaPipe Pose para acompanhar os braços em um vídeo
 
 Clone o repositório e instale as dependências:
 
+```bash
 git clone https://github.com/Thy281/contador-polichinelo.git
 cd contador-polichinelo
 pip install -r requirements.txt
+```
 
 Coloque poli.mp4 na pasta de onde o programa será executado. Coloque pose_landmarker_lite.task na mesma pasta do script.
 
 ## Execução
 
-Execute python contadorPolichinelo.py na pasta do projeto.
+```bash
+python contadorPolichinelo.py
+```
 
 Pressione q para fechar a janela do vídeo.
 
